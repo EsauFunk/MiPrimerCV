@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100vw; /*largo de tarjeta*/
+    height: 100vh;
+}
+header{
+    width: 100%; /*largo de tarjeta*/
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left{
+    width: 25%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.rigth{
+    width: 75%;
+    padding: 0px 10px;
+}
+header img {
+    width: 20%;
+    height: 220px;
+    border-radius: 5%;
+    transition-duration: 1000ms;
+}
+header img:hover{
+    width: 25%;
+    height: 250px;
+    border-radius: 50%;
+}
+.name{
+    width: 75%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name ul{
+    margin: 30px 0px;
+    padding: 10px;
+    border: 2px solid rgb(0, 220, 244);
+    border-radius: 50px;
+}
+.name li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 3px;
+}
+.name button{
+    background-color: rgb(0, 220, 244);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    padding: 5px 5px;
+    text-decoration: none;
+    transition: .75s;
+}
+.name button:hover{
+    background-color: black;
+}
+.name a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Anton', sans-serif;
+    transition: font-size 0.2s;
+}
+.name a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+h1 {
+    color: white;
+    font-size: 3.5em;
+    font-family: 'Anton', sans-serif;
+}
+#ocupacion{
+    font-size: 28px;
+    font-family: 'Dosis', sans-serif;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif; /* Fuente o diseño del texto*/
+}
+p{
+    font-family: 'Tajawal', sans-serif;
+}
+ul{
+    font-family: 'Tajawal', sans-serif;
+}
+.Subtitulo{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+#education{
+    background-color: #0093E9; /*Color de fondo*/
+    background-image: linear-gradient(160deg, #0093E9 0%, #080ffa 50%, #80D0C7 100%);; /*color de fondo */
+    text-align: center; /*Alineacion de texto*/
+    font-size: 17px; /*tamaño de letra o fuente*/
+    width: 100%;
+    height: 540px; /*alto de tarjeta*/
+    border-color: rgb(0, 220, 244);
+    border-style: none; /*Diseño o estilo del borde*/
+    border-width: 2px; /*Grosor del borde*/
+    border-radius: 10px; /*Radio del borde (esquinas)*/
+    padding: 10px; /*El relleno se utiliza para crear espacio alrededor del contenido de un elemento, dentro de los bordes definidos.*/
+    margin: 10px 5px 10px 5px; /*Los márgenes se utilizan para crear espacio alrededor de los elementos, fuera de los bordes definidos.*/
+}
+.coding{
+    font-size: 14px;
+    background-color: white;
+    height: 140px;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 5px; 
+}
+.data{
+    font-size: 14px;
+    background-color: white;
+    height: 140px;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+}
+.example{
+    font-size: 14px;
+    background-color: white;
+    height: 140px;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+}
+#skills{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #080ffa 50%, #80D0C7 100%);
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    height:205px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.lista{
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 20px;
+    height: 120px;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    text-align: left;
+    margin: 5px;
+}
+#Contacto{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #080ffa 50%, #80D0C7 100%);
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    height:250px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.referencias{
+    font-size: 14px;
+    background-color: white;
+    width: 95%;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 8px;
+    text-align: left;
+    padding: 3px 10px;
+    margin: 10px 0px;
+}
+#overview{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #080ffa 50%, #80D0C7 100%);
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.information{
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+}
+#experience{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #080ffa 50%, #80D0C7 100%);
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+#experience ul{
+    margin: 8px;
+}
+.ETI{
+    font-size: 14px;
+    text-align: justify;
+    background-color: white;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.XYZ{
+    font-size: 14px;
+    text-align: justify;
+    background-color: white;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.MELI{
+    font-size: 14px;
+    text-align: justify;
+    background-color: white;
+    border: 1px solid rgb(0, 220, 244);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0px;
+}
+article a{
+    color:black;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+}
+footer{
+    width: 100%;
+}
+#cnt{
+    width: 100%;
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+#cnt a{
+    margin: 3px solid white;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#cnt div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    color: blueviolet;
+    font-size: 10px;
+}
+.links{
+    color: white;
+    transition: 0.2s;
+}
+.links:hover{
+    text-shadow: 3px 3px 4px rgb(193, 193, 255);
+}
+.other{
+    color: aliceblue; 
+    font-size: 20px;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+    header{
+        height: 180px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .rigth{
+        width: 100%;
+    }
+    .name li{
+        display: contents;
+    }
+    h1{
+        font-size: 40px;
+    }
+    header img{
+        height: 150px;
+    }
+    #education{
+        height: auto;
+    }
+    .coding{
+        height: auto;
+    }
+    .data{
+        height: auto;
+    }
+    .example{
+        height: auto;
+    }
+}
