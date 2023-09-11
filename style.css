@@ -306,9 +306,9 @@ footer{
 }
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 480px){
+and (max-device-width: 520px){
     header{
-        height: 180px;
+        height: 220px;
     }
     main{
         flex-direction: column;
